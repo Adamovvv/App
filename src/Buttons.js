@@ -3,15 +3,9 @@ import React from 'react';
 function Buttons(props) {
     return (
         <div className="buttons">
-            <button className="btn btn-b">
-                Увеличить
-            </button>
-            <button className="btn btn-y">
-                Уменьшить
-            </button>
-            <button className="btn btn-g">
-                Сбросить
-            </button>
+            <input className="btn btn-b" type="button" onclick="alert('Клик!')" value="Увеличить"/>
+            <input className="btn btn-y" type="button" onclick="alert('Клик!')" value="Уменьшить"/>
+            <input className="btn btn-g" type="button" onclick="alert('Клик!')" value="Сбросить"/>
         </div>
     );
 }
