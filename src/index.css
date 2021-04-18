@@ -1,14 +1,16 @@
 * {
   box-sizing: border-box;
+  font-family: 'Gilroy';
+  font-weight: 500;
 }
 
 body {
   margin: 0;
-  font-family: 'Gilroy';
 }
 
 .container {
-  width: 770px;
+  width: 768px;
+  height: 850px;
   margin: auto;
 }
 
@@ -17,13 +19,14 @@ body {
   justify-content: space-between;
   height: 82px;
   align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 }
 
 .number {
   width: 585px;
   height: 318px;
   margin: auto;
-  font-size: 280px;
+  font-size: 288px;
   color: orange;
   text-align: center;
   margin-top: 40px;
@@ -31,8 +34,8 @@ body {
 }
 
 .buttons {
-  width: 742px;
-  height: 116px;
+  width: 710px;
+  height: 58px;
   display: flex;
   justify-content: space-between;
   margin: auto;
@@ -41,24 +44,24 @@ body {
 
 .btn {
   color: white;
-  width: 160px;
-  height: 40px;
-  margin: 30px;
+  width: 200px;
+  height: 58px;
   border-radius: 4px;
   border: none;
+  font-size: 24px;
 }
 
 .btn-b {
-  background-color: blue;
+  background-color: #003399;
 }
 
 .btn-y {
-  background-color: orange;
+  background-color: #F27C0F;
 }
 
 .btn-g {
   color: black;
-  background-color: rgb(200, 193, 193);
+  background-color: #E5E5E5;
 }
 
 .menu {
@@ -70,7 +73,7 @@ body {
 
 .menu h1 {
   font-size: 24px;
-  color: #00A438;
+  color: #003399;
   margin: 12px;
 }
 
@@ -87,18 +90,16 @@ a {
 }
 
 .footer {
+  width: 770px;
   height: 76px;
   display: flex;
+  line-height: 19px;
   align-items: center;
   justify-content: space-between;
 }
 
 .footerLogo {
   width: 112px;
-}
-
-.footerLogo img {
-  width: inherit;
 }
 
 .footer-menu {
@@ -108,10 +109,15 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
+}
+
+.footer-menu a {
+  color: rgba(0, 0, 0, 0.5);;
 }
 
 .copyright {
-  font-size: 10px;
+  width: auto;
+  height: 37px;
+  font-size: 8px;
   color: #9b9898;
 }

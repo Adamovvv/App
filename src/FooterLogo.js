@@ -1,10 +1,10 @@
 import React from 'react';
-import logo from './logo.svg'
+import footerLogo from './footerLogo.svg';
 
 function FooterLogo(props) {
     return (
         <div className="footerLogo">
-            <img src={logo} alt="footerLogo"/>
+            <img src={footerLogo} alt="footerLogo"/>
         </div>
     );
 }
